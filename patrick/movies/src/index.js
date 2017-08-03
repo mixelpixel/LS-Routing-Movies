@@ -19,7 +19,8 @@ const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
 const STORAGE_WAREHOUSE = createStoreWithMiddleware(
   rootReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+  window.__REDUX_DEVTOOLS_EXTENSION__ &&
+  window.__REDUX_DEVTOOLS_EXTENSION__());
 
 ReactDOM.render(
   <Provider store = { STORAGE_WAREHOUSE }>
