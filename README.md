@@ -14,8 +14,24 @@ Topics:
 ### Initialize Project
   * Clone the project. - DONE √
   * Run the server using `node server.js` - DONE √
-  * In a separate folder create your project. - DONE √ `create-react-app movies`
-  * Install the following packages `redux`, `react-redux`, `redux-promise`, `react-router-dom`, and `prop-types`.
+  * In a separate folder create your project. - DONE √
+    - `create-react-app movies`
+  * Install the following packages `redux`, `react-redux`, `redux-promise`, `react-router-dom`, and `prop-types`. - DONE √
+    - `npm i --save redux react-redux redux-promise react-router-dom prop-types`
+    ```console
+    $  npm i --save redux react-redux redux-promise react-router-dom prop-types
+        npm notice created a lockfile as package-lock.json. You should commit this file.
+        npm WARN react-redux@5.0.5 requires a peer of react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0 but none was installed.
+        npm WARN react-router-dom@4.1.2 requires a peer of react@^15 but none was installed.
+        npm WARN react-router@4.1.2 requires a peer of react@^15 but none was installed.
+
+        + prop-types@15.5.10
+        + redux@3.7.2
+        + redux-promise@0.5.3
+        + react-redux@5.0.5
+        + react-router-dom@4.1.2
+        added 37 packages in 10.701s
+    ```
   * Set up your router to serve two pages.
   * Your home page should retrieve a list of movies from the server and display them.
   * When a user clicks on a movie title they should be taken to a second page that displays more info about each movie.
