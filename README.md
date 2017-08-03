@@ -12,7 +12,7 @@ Topics:
 ## Project Description
 
 ### Initialize Project
-  * Clone the project.
+  * Clone the project. - DONE √
   * Run the server using `node server.js`
   * In a separate folder create your project.  Install the following packages `redux`, `react-redux`, `redux-promise`, `react-router-dom`, and `prop-types`.
   * Set up your router to serve two pages.
