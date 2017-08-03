@@ -32,9 +32,17 @@ Topics:
         + react-router-dom@4.1.2
         added 37 packages in 10.701s
     ```
-  * Set up your router to serve two pages. - ???
-  * Your home page should retrieve a list of movies from the server and display them.
-  * When a user clicks on a movie title they should be taken to a second page that displays more info about each movie.
+
+    - and axios!
+    ```console
+    $ npm i --save axios
+      + axios@0.16.2
+      added 2 packages in 10.624s
+    ```
+
+  * Set up your router to serve two pages. - OKAY √
+  * Your home page should retrieve a list of movies from the server and display them. - OKAY √
+  * When a user clicks on a movie title they should be taken to a second page that displays more info about each movie. - OKAY √
 
 
 ### Notes/Hints
