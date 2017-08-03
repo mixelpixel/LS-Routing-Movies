@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+// ART & STYLING
 import logo from '../art/logo.svg';
 import routerMagic from '../art/routing.png';
 import '../css/App.css';
+
+import MoviesList from '../containers/MoviesList';
 
 class App extends Component {
   render() {
@@ -15,6 +18,7 @@ class App extends Component {
         <p className="App-intro">
           Something <code>AMAZING</code> will go here!
         </p>
+        <MoviesList />
       </div>
     );
   }
