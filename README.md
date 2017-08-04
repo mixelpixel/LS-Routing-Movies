@@ -36,8 +36,18 @@ Topics:
     - and axios!
     ```console
     $ npm i --save axios
-      + axios@0.16.2
-      added 2 packages in 10.624s
+        + axios@0.16.2
+        added 2 packages in 10.624s
+    ```
+
+    - and reactstrap and bootstrap!
+    ```console
+    $  npm i --save bootstrap reactstrap
+        npm WARN reactstrap@4.8.0 requires a peer of react-transition-group@^1.1.2 but none was installed.
+
+        + bootstrap@3.3.7
+        + reactstrap@4.8.0
+        added 7 packages in 18.616s
     ```
 
   * Set up your router to serve two pages. - OKAY √
