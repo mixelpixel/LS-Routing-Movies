@@ -18,10 +18,6 @@ class MoviesList extends Component {
       <ol>
         { this.props.movies.map((movie, i) => {
           return (
-            // // THIS NEEDS TO BE PULLED OUT AND MADE ANOTHER MODULE
-            // <li key={ i }>
-            //   <p>{ `Title: ${movie.title}` }</p>
-            // </li>
             <Movie key={ i }
                    index={ i }
                    movie={ movie } />
