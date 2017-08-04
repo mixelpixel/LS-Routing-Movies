@@ -1,10 +1,20 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
+import React from 'react';
+
+// REACT_ROUTER
+import { Route } from 'react-router-dom';
+import { Home, Info } from './';
+// ART & STYLING
 import logo from '../art/logo.svg';
 import routerMagic from '../art/routing.png';
 import '../css/App.css';
 
-class App extends Component {
-  render() {
+import Navigation from './Navigation';
+import MoviesList from '../containers/MoviesList';
+
+// class App extends Component { // could be just a function! :P
+const App = () => {
+  // render() { I think render is a method of React Component you get from ReactDOM with the extends, or just a method you need to define because React Component expects it????????????
     return (
       <div className="App">
         <div className="App-header">
@@ -15,9 +25,13 @@ class App extends Component {
         <p className="App-intro">
           Something <code>AMAZING</code> will go here!
         </p>
+        <Navigation />
+        <MoviesList />
+        <Route exact path="/" component={ Home } />
+        <Route path="/info" component={ Info } />
       </div>
     );
-  }
+  // }
 }
 
 export default App;
