@@ -3,7 +3,7 @@ import React from 'react';
 
 // REACT_ROUTER
 import { Route } from 'react-router-dom';
-import { Home, Info } from '..';
+import { Home, Info } from './';
 // ART & STYLING
 import logo from '../art/logo.svg';
 import routerMagic from '../art/routing.png';
