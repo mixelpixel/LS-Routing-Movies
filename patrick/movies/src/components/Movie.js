@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-const Friend = ({ movie, i }) => {
+const Movie = ({ movie, i }) => {
   return (
     <li key={ i }>
       <p>{ `Title: ${movie.title}` }</p>
@@ -9,4 +9,4 @@ const Friend = ({ movie, i }) => {
   );
 };
 
-export default Friend;
+export default Movie;
