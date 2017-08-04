@@ -14,7 +14,7 @@ export const getMovies = () => {
 // server.js
 // const movies = [
 // 	{
-// 		id: 0,
+// 		id: 0, // <~~~~~~~~~~~~~~~~~~~~~ THIS
 // 		title: 'The Godfather',
 // 		director: 'Francis Ford Coppola',
 // 		metascore: 100,
