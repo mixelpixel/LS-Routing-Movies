@@ -41,7 +41,7 @@ Topics:
     ```
 
   * Set up your router to serve two pages. - OKAY √
-  * Your home page should retrieve a list of movies from the server and display them. - OKAY √
+  * Your home page should retrieve a list of movies from the server and display them. - DONE √
   * When a user clicks on a movie title they should be taken to a second page that displays more info about each movie. - OKAY √
 
 
