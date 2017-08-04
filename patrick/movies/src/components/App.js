@@ -9,6 +9,7 @@ import logo from '../art/logo.svg';
 import routerMagic from '../art/routing.png';
 import '../css/App.css';
 
+import Navigation from './Navigation';
 import MoviesList from '../containers/MoviesList';
 
 // class App extends Component { // could be just a function! :P
@@ -24,6 +25,7 @@ const App = () => {
         <p className="App-intro">
           Something <code>AMAZING</code> will go here!
         </p>
+        <Navigation />
         <MoviesList />
         <Route exact path="/" component={ Home } />
         <Route path="/info" component={ Info } />
