@@ -50,6 +50,15 @@ Topics:
         added 7 packages in 18.616s
     ```
 
+    - and react-transition-group!
+    ```console
+    $ npm i --save react-transition-group
+        npm WARN reactstrap@4.8.0 requires a peer of react-transition-group@^1.1.2 but none was installed.
+
+        + react-transition-group@2.2.0
+        added 3 packages in 12.216s
+    ```
+
   * Set up your router to serve two pages. - OKAY √
   * Your home page should retrieve a list of movies from the server and display them. - DONE √
   * When a user clicks on a movie title they should be taken to a second page that displays more info about each movie. - OKAY √
