@@ -20,7 +20,7 @@ export const getMovies = () => {
 // 		metascore: 100,
 // 		stars: ['Marlon Brando', 'Al Pacino', 'Robert Duvall'],
 // 	},
-//           vvvvvv/VVV
+//           vvvvvv/VVV~~~~~~~~~~~~~> and THIS
 // app.get('/movies/:id', (req, res) => {
 // 	const movie = movies.filter(movie => movie.id.toString() === req.params.id)[0];
 // 	res.send(movie);
