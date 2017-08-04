@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+
 import { GET_MOVIES } from '../actions';
 
 const moviesReducer = (movies = [], action) => {
