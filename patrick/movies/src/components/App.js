@@ -1,4 +1,9 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
+import React from 'react';
+
+// REACT_ROUTER
+import { Route } from 'react-router-dom';
+import { Home, Info } from '..';
 // ART & STYLING
 import logo from '../art/logo.svg';
 import routerMagic from '../art/routing.png';
@@ -20,6 +25,8 @@ const App = () => {
           Something <code>AMAZING</code> will go here!
         </p>
         <MoviesList />
+        <Route exact path="/" component={ Home } />
+        <Route path="/info" component={ Info } />
       </div>
     );
   // }
