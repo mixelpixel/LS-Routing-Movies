@@ -11,21 +11,6 @@ export const getMovies = () => {
   };
 };
 
-// server.js
-// const movies = [
-// 	{
-// 		id: 0, // <~~~~~~~~~~~~~~~~~~~~~ THIS
-// 		title: 'The Godfather',
-// 		director: 'Francis Ford Coppola',
-// 		metascore: 100,
-// 		stars: ['Marlon Brando', 'Al Pacino', 'Robert Duvall'],
-// 	},
-//           vvvvvv/VVV~~~~~~~~~~~~~> and THIS
-// app.get('/movies/:id', (req, res) => {
-// 	const movie = movies.filter(movie => movie.id.toString() === req.params.id)[0];
-// 	res.send(movie);
-// });
-
 export const getMovieDetailsByID = (id) => {
   const promise = axios.get(`http://localhost:5000/movies/${id}`);
   return {
