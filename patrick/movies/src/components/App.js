@@ -6,8 +6,9 @@ import '../css/App.css';
 
 import MoviesList from '../containers/MoviesList';
 
-class App extends Component { // could be just a function! :P
-  render() {
+// class App extends Component { // could be just a function! :P
+const App = () => {
+  // render() { I think render is a method of React Component you get from ReactDOM with the extends, or just a method you need to define because React Component expects it????????????
     return (
       <div className="App">
         <div className="App-header">
@@ -21,7 +22,7 @@ class App extends Component { // could be just a function! :P
         <MoviesList />
       </div>
     );
-  }
+  // }
 }
 
 export default App;
