@@ -8,7 +8,6 @@ import Movie from '../components/Movie';
 
 
 class MoviesList extends Component {
-
   componentDidMount() {
     this.props.getAllMovies();
   }
