@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
 
 import moviesReducer from './GetMoviesReducer';
+import movieByIDReducer from './GetMovieByIDReducer';
 
 // import { GET_MOVIES } from '../actions';
 //
@@ -14,7 +15,8 @@ import moviesReducer from './GetMoviesReducer';
 // };
 
 const rootReducer = combineReducers({
-  movies: moviesReducer
+  movies: moviesReducer,
+  movieID: movieByIDReducer // ---> ????????????? WOT??????
 });
 
 export default rootReducer;
