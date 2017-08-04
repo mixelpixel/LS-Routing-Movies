@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+
 import { connect } from 'react-redux';
-import { getMovies } from '../actions'; // <~~ '../actions/index.js'
 import { bindActionCreators } from 'redux';
+
+import { getMovies } from '../actions'; // <~~ '../actions/index.js'
+import Movie from '../components/Movie';
 
 
 class MoviesList extends Component {
+
   componentDidMount() {
     this.props.getAllMovies();
   }
@@ -13,10 +17,14 @@ class MoviesList extends Component {
     return (
       <ol>
         { this.props.movies.map((movie, i) => {
-          return ( // THIS NEEDS TO BE PULLED OUT AND MADE ANOTHER MODULE
-            <li key={ i }>
-              <p>{ `Title: ${movie.title}`}</p>
-            </li>
+          return (
+            // // THIS NEEDS TO BE PULLED OUT AND MADE ANOTHER MODULE
+            // <li key={ i }>
+            //   <p>{ `Title: ${movie.title}` }</p>
+            // </li>
+            <Movie key={ i }
+                   index={ i }
+                   movie={ movie } />
           );
         }) }
       </ol>
