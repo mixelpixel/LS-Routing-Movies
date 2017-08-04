@@ -14,7 +14,7 @@ import App from './components/App';
 // REDUCERS
 import rootReducer from './reducers';
 // BOOTSTRAP
-import 'bootstrap/dist/css/bootsrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
