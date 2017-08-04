@@ -11,6 +11,7 @@ import '../css/App.css';
 
 import Navigation from './Navigation';
 import MoviesList from '../containers/MoviesList';
+// import Movie from './Movie';
 
 // class App extends Component { // could be just a function! :P
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
         <MoviesList />
         <Route exact path="/" component={ Home } />
         <Route path="/info" component={ Info } />
+        {/* <Route exact path="/movies:id" component={ Movie } /> {/* ROUTES FOR MOVIE TITLES */}
       </div>
     );
   // }
