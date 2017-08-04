@@ -6,7 +6,7 @@ import '../css/App.css';
 
 import MoviesList from '../containers/MoviesList';
 
-class App extends Component {
+class App extends Component { // could be just a function! :P
   render() {
     return (
       <div className="App">
