@@ -19,10 +19,9 @@ class MoviesList extends Component {
         { this.props.movies.map((movie, i) => {
           return (
             <Movie key={ i }
-                   index={ i }
+                  //  index={ i }
                    movie={ movie } />
-          );
-        }) }
+        );}) }
       </ol>
     )
   }

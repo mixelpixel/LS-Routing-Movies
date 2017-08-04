@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 
-const Friend = ({ movie, index }) => {
+const Friend = ({ movie, i }) => {
   return (
-    <li key={ index }>
+    <li key={ i }>
       <p>{ `Title: ${movie.title}` }</p>
     </li>
   );
