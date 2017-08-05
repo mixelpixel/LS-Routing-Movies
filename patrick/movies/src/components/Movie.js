@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 
 const Movie = ({ movie, i }) => {
   return (
+
     <li key={ i }>
-      <Link to={ `/${movie.id}` }>{ `Title: ${movie.title}` }</Link>
+      <Link to={ `/movies/${movie.id}` }>{ `Title: ${movie.title}` }</Link>
     </li>
     /* <Link key={ i }
           to={ `/${movie.id}` }>{ `Title: ${movie.title}` }

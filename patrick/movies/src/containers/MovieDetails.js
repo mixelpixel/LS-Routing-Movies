@@ -10,16 +10,16 @@ class MovieDetails extends Component {
     super();
   }
   componentDidMount() {
-    this.props.getMoviesByID(this.props.match.params.id);
+    this.props.getMovieDetails(this.props.match.params.id);
   }
 
   render() {
     return (
-      <div key={ this.props.movies.id }>
-        <p> { `${this.props.movies.title}` }</p>
-        <p> { `${this.props.movies.metascore}` }</p>
-        <p> { `${this.props.movies.stars}` }</p>
-        <p> { `${this.props.movies.director}` }</p>
+      <div>
+        <p> { `${this.props.movieDetails.title}` }</p>
+        <p> { `${this.props.movieDetails.metascore}` }</p>
+        <p> { `${this.props.movieDetails.stars}` }</p>
+        <p> { `${this.props.movieDetails.director}` }</p>
       </div>
     );
   };
@@ -27,7 +27,7 @@ class MovieDetails extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    movieDetails: state.movie
+    movieDetails: state.movieID
   };
 };
 

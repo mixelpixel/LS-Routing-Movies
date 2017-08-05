@@ -6,7 +6,7 @@ import movieByIDReducer from './GetMovieByIDReducer';
 
 const rootReducer = combineReducers({
   movies: moviesReducer,
-  movieID: movieByIDReducer // ---> ????????????? WOT??????
+  movieID: movieByIDReducer
 });
 
 export default rootReducer;
